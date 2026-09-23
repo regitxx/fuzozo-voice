@@ -1,5 +1,8 @@
 # How the bridge works
 
+For the full chronological account and experimental reasoning, see
+[How Fuzozo was reverse-engineered](REVERSE_ENGINEERING.md).
+
 ## Investigation method
 
 The original investigation physically correlated a BLE device through power

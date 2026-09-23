@@ -31,6 +31,14 @@ microphone capture does **not** mean continuous speaker streaming. Raising the
 speech slider has not resolved all loudness differences between factory and
 custom audio. See [architecture and limitations](docs/ARCHITECTURE.md).
 
+## How it was reverse-engineered
+
+Read the [step-by-step investigation](docs/REVERSE_ENGINEERING.md): device
+identification, Bluetooth/app analysis, the USB console, firmware disassembly,
+binary-transfer failures, temporary ARM helpers, verified speaker playback and
+continuous microphone capture. It includes the unsuccessful routes and explains
+what each test did—and did not—prove.
+
 ## Requirements
 
 - macOS with Python **3.11**, Xcode Command Line Tools (`xcode-select --install`).
@@ -116,7 +124,8 @@ recordings, credentials and private research captures are not distributed.
 
 - [Setup another robot and troubleshooting](docs/SETUP.md)
 - [Hosted AI and speech configuration](docs/HOSTED_AI.md)
-- [Reverse-engineering method and limitations](docs/ARCHITECTURE.md)
+- [Step-by-step reverse-engineering investigation](docs/REVERSE_ENGINEERING.md)
+- [Architecture and current limitations](docs/ARCHITECTURE.md)
 - [Privacy and reporting issues](SECURITY.md)
 
 MIT license for this repository's code. Independent project; not affiliated with
