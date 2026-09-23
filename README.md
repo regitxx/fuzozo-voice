@@ -125,6 +125,7 @@ recordings, credentials and private research captures are not distributed.
 - [Setup another robot and troubleshooting](docs/SETUP.md)
 - [Hosted AI and speech configuration](docs/HOSTED_AI.md)
 - [Step-by-step reverse-engineering investigation](docs/REVERSE_ENGINEERING.md)
+- [C references and what can be reproduced](docs/RESEARCH_SOURCES.md)
 - [Architecture and current limitations](docs/ARCHITECTURE.md)
 - [Privacy and reporting issues](SECURITY.md)
 

@@ -1,0 +1,208 @@
+{
+  "description": "Upstream C/header references matched byte-for-byte to local research copies. Not build dependencies or exact Fuzozo firmware sources. Git tree SHAs are tree objects, not claimed commit IDs.",
+  "files": [
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "middleware/soc/bk7258/mpu_cfg.c",
+      "git_blob_sha": "48d6a996300fbd5fde13173a8d01baa053e3187f",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/48d6a996300fbd5fde13173a8d01baa053e3187f"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/cli_main.c",
+      "git_blob_sha": "bb5b10e55016ada7a093216dad0c25a3753e13c1",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/bb5b10e55016ada7a093216dad0c25a3753e13c1"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/cli_mem.c",
+      "git_blob_sha": "f09304ae58c08a1082975e71f7b7d4326829a335",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/f09304ae58c08a1082975e71f7b7d4326829a335"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/cli_psram.c",
+      "git_blob_sha": "0b99c51ea7541b3c19a166841fac98243be38d82",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/0b99c51ea7541b3c19a166841fac98243be38d82"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/cli_vfs.c",
+      "git_blob_sha": "11beaeff32199c2c1eb8ecd353c74577df22f59c",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/11beaeff32199c2c1eb8ecd353c74577df22f59c"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/cli_wifi.c",
+      "git_blob_sha": "486f0277a6856cc95a3a2286c7356a1b7fe162f2",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/486f0277a6856cc95a3a2286c7356a1b7fe162f2"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/cmd_help.c",
+      "git_blob_sha": "f0ee1ba712e181dfbf4b76c1234f4dcea2c5f46f",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/f0ee1ba712e181dfbf4b76c1234f4dcea2c5f46f"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/cmd_help.h",
+      "git_blob_sha": "8a8c1aea7f3658053b897853ddadfdd7abb92011",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/8a8c1aea7f3658053b897853ddadfdd7abb92011"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/cmd_reg.c",
+      "git_blob_sha": "e83e801991de63cb19c5a3df0e58035e2c0f7892",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/e83e801991de63cb19c5a3df0e58035e2c0f7892"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/cmd_reg.h",
+      "git_blob_sha": "a380feda7d1b77384c228163f07010c07d906d5b",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/a380feda7d1b77384c228163f07010c07d906d5b"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_ate.c",
+      "git_blob_sha": "c7f16fa4ba81f77aabbdd2036f4fec5893bd7e24",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/c7f16fa4ba81f77aabbdd2036f4fec5893bd7e24"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_ate.h",
+      "git_blob_sha": "dd638b1a41af18394ebd125f60397919209a50b6",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/dd638b1a41af18394ebd125f60397919209a50b6"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_ate_adc.c",
+      "git_blob_sha": "4ca699164a308e1e7b15229ed7cb8caf8ef1fdb4",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/4ca699164a308e1e7b15229ed7cb8caf8ef1fdb4"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_ate_audio.c",
+      "git_blob_sha": "eca7454a5df71dc902d0176568dab26a68181f49",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/eca7454a5df71dc902d0176568dab26a68181f49"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_ate_memcheck.c",
+      "git_blob_sha": "f9b35e0c3170bd4944b2542c99dbe5ecc185d4ba",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/f9b35e0c3170bd4944b2542c99dbe5ecc185d4ba"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_ate_vdddig.c",
+      "git_blob_sha": "bea8d141b7c13e70138172fb688e2b6668f3427a",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/bea8d141b7c13e70138172fb688e2b6668f3427a"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_line.c",
+      "git_blob_sha": "18688a1aebc118f5df1d78f0d7c3f33ee0fcd090",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/18688a1aebc118f5df1d78f0d7c3f33ee0fcd090"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_line.h",
+      "git_blob_sha": "e6a7a08ddefee9700dc6a97b7dab35a205e73559",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/e6a7a08ddefee9700dc6a97b7dab35a205e73559"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_table.c",
+      "git_blob_sha": "0985d0d3862a36fa7651dfc1618f115a9385341e",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/0985d0d3862a36fa7651dfc1618f115a9385341e"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/command_table.h",
+      "git_blob_sha": "03b47d77faea50d3e45bc5f6ea023b450214ea18",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/03b47d77faea50d3e45bc5f6ea023b450214ea18"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/entry_declare.h",
+      "git_blob_sha": "eb037c0df64cdb31493440fef6c39c9d84b12e1a",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/eb037c0df64cdb31493440fef6c39c9d84b12e1a"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/shell_task.c",
+      "git_blob_sha": "1c476d64272ec08c9e49586feca70e47ef6d742f",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/1c476d64272ec08c9e49586feca70e47ef6d742f"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/udebug.c",
+      "git_blob_sha": "3bb0cf679eec72a575566ed550d9c7035b793c54",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/3bb0cf679eec72a575566ed550d9c7035b793c54"
+    },
+    {
+      "repository": "bekencorp/bk_idk",
+      "path": "components/bk_cli/uart_debug/udebug.h",
+      "git_blob_sha": "7d821740bf496667a252ac986509a26f5514d1b6",
+      "git_tree_sha": "650e754e12fe1e43c37ce2316a973668b033fd48",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_idk/git/blobs/7d821740bf496667a252ac986509a26f5514d1b6"
+    },
+    {
+      "repository": "bekencorp/bk_avdk_ai",
+      "path": "components/multimedia/app/aud_intf.c",
+      "git_blob_sha": "6e405ba081cc3527826b0424d7a9af67110be14d",
+      "git_tree_sha": "bce123d336b49097865a53186dd187543b3edff9",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_avdk_ai/git/blobs/6e405ba081cc3527826b0424d7a9af67110be14d"
+    },
+    {
+      "repository": "bekencorp/bk_avdk_ai",
+      "path": "components/multimedia/cli/aud_intf_demo.c",
+      "git_blob_sha": "fb30344ada461eaee9b4dda7072de5cc349e0998",
+      "git_tree_sha": "bce123d336b49097865a53186dd187543b3edff9",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_avdk_ai/git/blobs/fb30344ada461eaee9b4dda7072de5cc349e0998"
+    },
+    {
+      "repository": "bekencorp/bk_avdk_ai",
+      "path": "components/multimedia/include/aud_intf_private.h",
+      "git_blob_sha": "1ff4a07a28ec78fc08a302dfaa88ba9a90d48de9",
+      "git_tree_sha": "bce123d336b49097865a53186dd187543b3edff9",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_avdk_ai/git/blobs/1ff4a07a28ec78fc08a302dfaa88ba9a90d48de9"
+    },
+    {
+      "repository": "bekencorp/bk_avdk_ai",
+      "path": "components/multimedia/include/aud_intf_types.h",
+      "git_blob_sha": "9d221555eb969ccf278370040db77b78d0ee55a8",
+      "git_tree_sha": "bce123d336b49097865a53186dd187543b3edff9",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_avdk_ai/git/blobs/9d221555eb969ccf278370040db77b78d0ee55a8"
+    },
+    {
+      "repository": "bekencorp/bk_avdk_ai",
+      "path": "components/multimedia/aud/aud_tras_drv.c",
+      "git_blob_sha": "d88acc12c5868e7c50ffd56beced3aea28c478db",
+      "git_tree_sha": "bce123d336b49097865a53186dd187543b3edff9",
+      "blob_api_url": "https://api.github.com/repos/bekencorp/bk_avdk_ai/git/blobs/d88acc12c5868e7c50ffd56beced3aea28c478db"
+    }
+  ]
+}
