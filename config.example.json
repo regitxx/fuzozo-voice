@@ -1,0 +1,12 @@
+{
+  "ai_base_url": "http://127.0.0.1:1234/v1",
+  "ai_model": "",
+  "ai_api_key_env": "FUZOZO_AI_API_KEY",
+  "system_prompt": "You are a friendly robot companion. Be concise, curious, and honest.",
+  "tts_provider": "macos",
+  "tts_voice": "",
+  "tts_url": "",
+  "tts_model": "",
+  "tts_api_key_env": "FUZOZO_TTS_API_KEY",
+  "stt_model": "base.en"
+}

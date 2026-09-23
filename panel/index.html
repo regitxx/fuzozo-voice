@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fuzozo · Lab companion</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<svg class="icon-library" aria-hidden="true"><defs>
+ <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/></symbol>
+ <symbol id="i-sound" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 3a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+ <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2m-7 9v3m-4 0h8"/></symbol>
+ <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+ <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 15a3 3 0 0 1-3 3H8l-5 3V6a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3Z"/><path d="M7 8h9M7 12h6"/></symbol>
+ <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+ <symbol id="i-activity" viewBox="0 0 24 24"><path d="M2 12h5l3-8 4 16 3-8h5"/></symbol>
+ <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></symbol>
+ <symbol id="i-link" viewBox="0 0 24 24"><path d="m9 15 6-6m-7 3-2 2a4 4 0 0 0 6 6l3-3m-3-9 2-2a4 4 0 0 1 6 6l-3 3"/></symbol>
+</defs></svg>
+<aside class="sidebar">
+ <a class="brand" href="#overview"><span class="brand-icon"><svg><use href="#i-spark"/></svg></span><span>fuzozo<span class="brand-small">LAB COMPANION</span></span></a>
+ <div class="workspace-label">YOUR WORKSPACE <span>01</span></div>
+ <nav aria-label="Panel sections">
+  <a href="#overview" class="nav-link active"><svg><use href="#i-grid"/></svg>Overview<span class="nav-dot"></span></a>
+  <a href="#sound" class="nav-link"><svg><use href="#i-sound"/></svg>Voice & sound</a>
+  <a href="#agent" class="nav-link"><svg><use href="#i-chat"/></svg>AI companion</a>
+  <a href="#activity" class="nav-link"><svg><use href="#i-activity"/></svg>Activity</a>
+ </nav>
+ <div class="sidebar-note"><span class="tiny-label">A LITTLE ROBOT.<br>A LOT TO SAY.</span><div class="mini-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p>Your lab companion,<br>connected to your own AI.</p></div>
+ <div class="local-status"><span class="status-dot" id="server-dot"></span><div>Local control panel<small id="server-label">Connecting to this Mac…</small></div></div>
+</aside>
+<main id="overview">
+ <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <strong>Fuzozo</strong></div><div class="top-actions"><span class="private-tag"><svg><use href="#i-link"/></svg>Local connection</span><button class="button stop-button" id="stop-all"><svg><use href="#i-stop"/></svg>Stop all</button></div></header>
+ <section class="page-heading"><div><p class="eyebrow">HELLO, LAB.</p><h1>Make a little conversation.</h1><p>Your robot, your words, your companion.</p></div><span class="date-pill" id="today"></span></section>
+ <section class="hero card" aria-label="Robot connection">
+  <div class="hero-copy"><div class="pill" id="device-pill"><span class="status-dot"></span><span id="device-state">Checking connection</span></div><h2>A familiar face.<br>A new voice.</h2><p>Give Fuzozo something to say, or let your<br class="desktop-break"> AI companion take the conversation.</p><div class="hero-actions"><button class="button primary" id="connect"><svg><use href="#i-link"/></svg>Check connection</button><span class="hero-caption" id="connection-detail">Keep Fuzozo awake and connected by USB.</span></div></div>
+  <div class="robot-scene" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="float-star star-one">✦</span><span class="float-star star-two">✧</span><div class="robot-shadow"></div><div class="robot"><div class="antenna"><b></b></div><div class="robot-ear left"></div><div class="robot-ear right"></div><div class="robot-body"><div class="robot-screen"><div class="eyes"><i></i><i></i></div><div class="smile"></div><span class="cheek left"></span><span class="cheek right"></span></div><div class="robot-light"></div></div><div class="robot-foot left"></div><div class="robot-foot right"></div></div><span class="scene-caption"><span></span>MADE FOR YOUR LAB</span></div>
+ </section>
+ <div class="status-strip" aria-live="polite"><span class="status-dot" id="work-dot"></span><strong id="phase-label">Getting ready</strong><span class="status-divider"></span><span id="notice">Connecting to the local control service…</span><span id="queue-count"></span></div>
+ <div class="dashboard-grid">
+  <div class="main-column">
+   <section class="card speak-card" id="speech"><div class="section-heading"><div><p class="eyebrow">YOUR WORDS, ITS VOICE</p><h2>Say it out loud</h2></div><span class="icon-tile coral"><svg><use href="#i-sound"/></svg></span></div>
+    <label class="sr-only" for="speech-text">Text for Fuzozo to speak</label><textarea id="speech-text" maxlength="600" rows="3" placeholder="Hey everyone. Welcome back to the lab."></textarea><div class="text-meta"><span>Long messages are spoken in short sections.</span><span id="speech-count">0 / 600</span></div>
+    <div class="speak-actions"><button class="button primary" id="speak"><svg><use href="#i-sound"/></svg>Speak through Fuzozo</button><button class="button subtle" id="preview">Prepare preview</button></div>
+    <div class="audio-preview" id="audio-preview" hidden><div><span class="tiny-label">LATEST SPEECH</span><button class="text-button" id="replay">Replay on robot <span>↗</span></button></div><audio id="audio-player" controls preload="metadata"></audio><p id="audio-description"></p></div>
+   </section>
+   <section class="card agent-card" id="agent"><div class="section-heading"><div><p class="eyebrow">SAME PERSONALITY. NEW ROBOT.</p><h2 id="agent-heading">Your AI companion</h2></div><span class="pill small"><span class="status-dot" id="ai-dot"></span><span id="ai-status">Checking AI</span></span></div>
+    <div class="conversation" id="conversation" aria-live="polite"><div class="empty-chat"><span class="empty-icon"><svg><use href="#i-chat"/></svg></span><h3>A conversation starts with hello.</h3><p>Ask a question, share an idea, or tell your<br>companion what’s happening in the lab.</p></div></div>
+    <form id="chat-form"><label class="sr-only" for="chat-text">Message the AI companion</label><div class="chat-compose"><textarea id="chat-text" rows="2" maxlength="1000" placeholder="Ask your companion anything…"></textarea><button class="send-button" type="submit" aria-label="Send message"><svg><use href="#i-arrow"/></svg></button></div><div class="chat-options"><label class="check-label"><input id="speak-replies" type="checkbox" checked>Speak replies through Fuzozo</label><button class="text-button muted" id="clear-chat" type="button">Clear chat</button></div></form>
+   </section>
+  </div>
+  <div class="side-column">
+   <section class="card sound-card" id="sound"><div class="section-heading"><div><p class="eyebrow">FIND THE RIGHT LEVEL</p><h2>Voice & sound</h2></div><svg class="heading-icon"><use href="#i-sound"/></svg></div>
+    <div class="slider-label"><label for="master-volume">Robot volume</label><output id="master-value" for="master-volume">—</output></div><input id="master-volume" type="range" min="0" max="100" step="5" value="20" disabled><div class="range-labels"><span>Quiet</span><span>Loud</span></div>
+    <button id="mute" class="mute-control" aria-pressed="false" disabled><span><svg><use href="#i-sound"/></svg>Mute robot</span><span class="switch"><i></i></span></button><div class="rule"></div>
+    <div class="slider-label"><label for="speech-volume">Generated speech</label><output id="speech-value" for="speech-volume">67%</output></div><input id="speech-volume" type="range" min="0" max="100" step="1" value="67"><p class="helper">Robot volume affects all sounds. Generated speech adjusts your text and AI replies.</p><p class="sound-notice" id="sound-notice" hidden></p>
+   </section>
+   <section class="card listening-card"><div class="section-heading"><span class="icon-tile green"><svg><use href="#i-mic"/></svg></span><span class="beta-tag">EXPERIMENTAL</span></div><h2>Just talk to it.</h2><p id="listen-help">Say “Robot”, then your question. Uses Fuzozo’s own microphone.</p><div class="listen-visual" id="listen-visual" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><button class="button outline full-width" id="voice-toggle"><svg><use href="#i-mic"/></svg><span>Start listening</span></button><p class="micro-note" id="voice-detail">Listening pauses while the companion replies.</p></section>
+   <details class="card settings-card"><summary>Companion settings <span>+</span></summary><form id="settings-form"><label for="agent-name">Display name</label><input id="agent-name" maxlength="50" value="Lab companion"><label for="reply-style">Reply length</label><select id="reply-style"><option value="short">Short · quicker to speak</option><option value="standard">A little more detail</option></select><label for="wake-word">Wake word</label><input id="wake-word" maxlength="16" value="robot" pattern="[a-zA-Z]{2,16}"><label for="instructions">Personality notes <small>Optional</small></label><textarea id="instructions" rows="3" maxlength="1200" placeholder="Keep it playful and curious."></textarea><button class="button primary full-width" type="submit">Save settings</button><p class="helper">Uses your configured companion’s personality, with these notes added.</p></form></details>
+  </div>
+ </div>
+ <section class="card activity-card" id="activity"><div class="section-heading"><div><p class="eyebrow">WHAT’S HAPPENING</p><h2>Activity</h2></div><span class="tiny-label">LIVE</span></div><div id="activity-list"><p class="helper">Commands and connection updates will appear here.</p></div></section>
+ <footer><span><b>fuzozo</b> · A companion of your own.</span><span>Your AI server <i>·</i> Local voice <i>·</i> USB connection</span></footer>
+</main><div id="toast" role="status" hidden></div>
+<script src="/app.js" defer></script>
+</body></html>

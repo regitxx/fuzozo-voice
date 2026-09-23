@@ -1,0 +1,15 @@
+/run/
+/outputs/
+/models/
+/.venv*/
+/config.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.o
+*.wav
+*.bin
+*.log
+.DS_Store
