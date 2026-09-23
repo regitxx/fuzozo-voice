@@ -33,6 +33,10 @@ custom audio. See [architecture and limitations](docs/ARCHITECTURE.md).
 
 ## How it was reverse-engineered
 
+For an engineer continuing the work, start with the [research handoff](docs/RESEARCH_HANDOFF.md).
+It includes commands, analysis tools, synthetic fixtures, required input files,
+and acceptance criteria for the unfinished systems.
+
 Read the [step-by-step investigation](docs/REVERSE_ENGINEERING.md): device
 identification, Bluetooth/app analysis, the USB console, firmware disassembly,
 binary-transfer failures, temporary ARM helpers, verified speaker playback and
@@ -125,6 +129,7 @@ recordings, credentials and private research captures are not distributed.
 - [Setup another robot and troubleshooting](docs/SETUP.md)
 - [Hosted AI and speech configuration](docs/HOSTED_AI.md)
 - [Step-by-step reverse-engineering investigation](docs/REVERSE_ENGINEERING.md)
+- [Reproduce the analysis and continue development](docs/RESEARCH_HANDOFF.md)
 - [C references and what can be reproduced](docs/RESEARCH_SOURCES.md)
 - [Architecture and current limitations](docs/ARCHITECTURE.md)
 - [Privacy and reporting issues](SECURITY.md)

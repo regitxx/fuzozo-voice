@@ -11,6 +11,6 @@ jobs:
         with:
           python-version: '3.11'
           cache: pip
-      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pip install -r requirements-research.txt
       - run: python build_helpers.py
       - run: python -m unittest discover -p 'test_*.py'

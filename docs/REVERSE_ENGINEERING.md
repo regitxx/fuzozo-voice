@@ -229,6 +229,9 @@ For the SDK C/header files consulted during this work and the scope of what
 is reproducible, see [Research sources](RESEARCH_SOURCES.md). The public bridge
 does not depend on those reference trees at build time.
 
+For executable steps, input requirements and original test fixtures, use the
+[research handoff](RESEARCH_HANDOFF.md).
+
 ## How to study or reproduce the reasoning
 
 Start with [SETUP.md](SETUP.md), not raw memory writes. Then read the console,

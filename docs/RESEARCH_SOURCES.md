@@ -56,10 +56,11 @@ established merely by having the same model name.
 ## What is not a complete reproducible package yet
 
 The repository does not include the original app/firmware binaries, private
-captures, account credentials or raw device keys. It also does not include all
-of the lab's app-metadata/disassembly utilities or Bluetooth/cloud investigation
-clients. The reverse-engineering guide describes that work, but the published
-code implements the resulting USB bridge, not every historical discovery step.
+captures, account credentials or raw device keys. The reusable app-metadata/disassembly tools, offline firmware analyzer, exact
+reference downloader, read-only profile snapshot and BLE reply verifier are now
+in `research_tools/`; see [RESEARCH_HANDOFF.md](RESEARCH_HANDOFF.md). Full
+Bluetooth/cloud acquisition clients are still absent. These tools reproduce
+analysis stages with user-supplied inputs, not every historical discovery step.
 
 Therefore it is a usable starting point for continuing research on the
 supported profile, not a universal method for automatically reverse-engineering
